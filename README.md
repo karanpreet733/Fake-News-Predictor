@@ -30,4 +30,11 @@ To ensure the text data is ready for the machine learning model, the following N
 The dataset is split into 80% training data and 20% testing data, stratified to maintain class balance.
 * **Algorithm:** Logistic Regression
 * **Training Data Accuracy:** ~98.6%
-*
+* **Testing Data Accuracy:** ~97.9%
+
+## How to Run
+1. Clone this repository to your local machine.
+2. Ensure you have Python installed, along with the required libraries: `pip install numpy pandas nltk scikit-learn`.
+3. Download the NLTK stopwords dataset if you haven't already (the notebook handles this automatically).
+4. Place your `train.csv` file in the same directory as the Jupyter Notebook.
+5. Open `Fake news predictor.ipynb` in VS Code or JupyterLab and run the cells sequentially.
